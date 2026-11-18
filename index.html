@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Jeroen Vileyn portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <title>Portfolio</title>
+</head>
+<body data-page="home">
+  <header id="nav"></header>
+  <main>
+    <section id="hero" class="hero container"></section>
+
+    <section id="about" class="container section">
+      <h2 class="section-title"><span>01</span> <b id="about-title"></b></h2>
+      <div id="about-content"></div>
+    </section>
+
+    <section id="projects" class="container section">
+      <h2 class="section-title"><span>02</span> <b id="projects-title"></b></h2>
+      <div id="project-list" class="grid"></div>
+    </section>
+
+    <section id="experience" class="container section">
+      <h2 class="section-title"><span>03</span> <b id="experience-title"></b></h2>
+      <ol id="timeline" class="timeline"></ol>
+    </section>
+
+    <section id="blog" class="container section">
+      <h2 class="section-title"><span>04</span> <b id="blog-title"></b></h2>
+      <div id="latest-posts" class="post-list"></div>
+      <a id="all-posts-link" class="text-link" href="blog.html"></a>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2 class="section-title"><span>05</span> <b id="contact-title"></b></h2>
+      <div id="contact-content"></div>
+    </section>
+  </main>
+  <footer id="footer"></footer>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
