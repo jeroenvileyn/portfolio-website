@@ -34,6 +34,8 @@ const en = {
   linkCode: "Code",
   linkWriteup: "Write-up",
   linkDemo: "Demo",
+  showMore: "Show more",
+  showLess: "Show less",
 };
 
 const nl: typeof en = {
@@ -55,7 +57,7 @@ const nl: typeof en = {
   certifications: "Certificaten",
   location: "Locatie",
   focus: "Focus",
-  blogIntro: "Write-ups, notities en dingen die ik geleerd heb.",
+  blogIntro: "Write-ups, notities en dingen die ik geleerd heb. Mijn posts schrijf ik in het Engels.",
   all: "Alle",
   noPosts: "Nog geen posts.",
   backToPosts: "← Alle posts",
@@ -67,6 +69,8 @@ const nl: typeof en = {
   linkCode: "Code",
   linkWriteup: "Write-up",
   linkDemo: "Demo",
+  showMore: "Toon meer",
+  showLess: "Toon minder",
 };
 
 export const ui: Record<Lang, typeof en> = { en, nl };

@@ -135,6 +135,9 @@ function renderHome() {
       <div class="mono accent small">${esc(tr(p.category, lang))}</div>
       <h3>${esc(tr(p.title, lang))}</h3>
       <p>${esc(tr(p.description, lang))}</p>
+      ${p.details?.length ? `
+        <div class="project-details" hidden>${p.details.map((d) => `<p>${esc(tr(d, lang))}</p>`).join("")}</div>
+        <button class="show-more" aria-expanded="false">${t("showMore")}</button>` : ""}
       ${tags(p.tags)}
       <div class="project-links">
         ${(Object.entries(p.links) as [keyof typeof linkLabel, string | undefined][])
@@ -143,6 +146,17 @@ function renderHome() {
           .join("")}
       </div>
     </article>`).join("");
+
+  // "Show more" / "Show less" on project cards
+  $("#project-list")!.onclick = (e) => {
+    const btn = (e.target as HTMLElement).closest<HTMLButtonElement>(".show-more");
+    if (!btn) return;
+    const details = btn.previousElementSibling as HTMLElement;
+    const open = details.hidden;
+    details.hidden = !open;
+    btn.setAttribute("aria-expanded", String(open));
+    btn.textContent = open ? t("showLess") : t("showMore");
+  };
 
   $("#experience-title")!.textContent = t("experienceTitle");
   $("#timeline")!.innerHTML = site.timeline.map((x) => `

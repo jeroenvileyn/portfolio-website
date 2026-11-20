@@ -83,11 +83,17 @@ header { position: sticky; top: 0; z-index: 10; background: rgba(11, 15, 20, 0.8
 .badge.in-progress { background: rgba(240, 190, 70, 0.14); color: #f0be46; }
 .badge.planned { background: rgba(139, 152, 165, 0.14); color: var(--muted); }
 
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+.grid { align-items: start; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
 .project { display: flex; flex-direction: column; gap: 10px; transition: border-color 0.15s, transform 0.15s; }
 .project:hover { border-color: var(--accent); transform: translateY(-2px); }
 .project h3 { margin: 0; }
-.project p { color: var(--muted); flex: 1; }
+.project > p { color: var(--muted); }
+.project-details { border-left: 2px solid var(--accent); padding-left: 12px; }
+.project-details p { color: #c9d4de; font-size: 0.95rem; }
+.project-details p + p { margin-top: 0.6em; }
+.show-more { align-self: flex-start; background: none; border: 0; padding: 0; color: var(--accent); font: 500 0.88rem var(--sans); cursor: pointer; }
+.show-more:hover { text-decoration: underline; }
+.project .tags { margin-top: auto; }
 .project-links { display: flex; gap: 18px; margin-top: 6px; }
 
 .timeline { list-style: none; border-left: 2px solid var(--border); margin-left: 6px; }
