@@ -117,8 +117,8 @@ export const site: SiteContent = {
     {
       when: { en: "2025 — now", nl: "2025 — nu" },
       title: { en: "Bachelor in Cybersecurity", nl: "Bachelor Cybersecurity" },
-      place: "Your University / College",
-      text: { en: "Relevant courses, thesis topic, student society…", nl: "Relevante vakken, bachelorproef, studentenvereniging…" },
+      place: "Howest",
+      text: { en: "Blue teaming, pentesting, GRC, Law ...", nl: "Blue teaming, pentesten, GRC, Wetgeving ..." },
     },
   ],
 
