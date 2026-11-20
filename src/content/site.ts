@@ -57,9 +57,15 @@ export const site: SiteContent = {
       title: { en: "Python Security Toolkit", nl: "Python Security Toolkit" },
       category: { en: "Tool", nl: "Tool" },
       description: {
-        en: "A python tool containing multiple smaller modules: port scanner, packet sniffer, mac spoofer, ssh connector, password generator, key logger, web scraper, web recon tool, base decoder, folder organizer and an ip geolocation retriever.",
-        nl: "Een Python-tool die uit meerdere kleinere modules bestaat: een poortscanner, een pakketsniffer, een MAC-spoofer, een SSH-connector, een wachtwoordgenerator, een keylogger, een webscraper, een tool voor webverkenning, een basisdecoder, een mapbeheerder en een tool voor het opzoeken van de geografische locatie op basis van een IP-adres.",
+        en: "A python tool containing multiple smaller modules.",
+        nl: "Een Python-tool die uit meerdere kleinere modules bestaat",
       },
+      details: [
+        {
+          en: "Consists a port scanner, packet sniffer, mac spoofer, ssh connector, password generator, key logger, web scraper, web recon tool, base decoder, folder organizer and an ip geolocation retriever.",
+          nl: "Bevat een poortscanner, een pakketsniffer, een MAC-spoofer, een SSH-connector, een wachtwoordgenerator, een keylogger, een webscraper, een tool voor webverkenning, een basisdecoder, een mapbeheerder en een tool voor het opzoeken van de geografische locatie op basis van een IP-adres.",
+        },
+      ],
       tags: ["Python", "Networking", "Pentesting"],
       links: { code: "https://github.com/jeroenvileyn/python-toolkit" },
     },
@@ -68,7 +74,7 @@ export const site: SiteContent = {
       category: { en: "CTF", nl: "CTF" },
       description: {
         en: "We played capture-the-flag competitions with a university team, challenges of all flavors. Finished overall 1st of 2 project/CTF weeks receiving the winners trophy",
-        nl: "Oplossingen en lessen uit Hack The Box, TryHackMe en CTF-wedstrijden op de universiteit.",
+        nl: "We hebben ‘capture-the-flag’-wedstrijden gespeeld tegen een universiteitsteam, met allerlei soorten uitdagingen. We zijn als eerste geëindigd in de algemene ranglijst van de twee project-/CTF-weken en hebben de winnaarstrofee in ontvangst genomen.",
       },
       tags: ["Web", "Forensics", "Crypto", "Ghidra", "Wireshark", "Python", "Android Studio", "Audacity", "gdb", "Metasploit"],
       links: { writeup: "" },
@@ -77,9 +83,19 @@ export const site: SiteContent = {
       title: { en: "Honeypot", nl: "Honeypot" },
       category: { en: "Project", nl: "Project" },
       description: {
-        en: "Built a secure webserver with a honeypot to be pentested by students + pentesting other honeypots. I Found a stored XSS in one website stealing the administrator's cookie when they opened the admin page. Wrote a report with proof of concept and fix advice. Project together with Maddox Heyndrickx and Gianna Vandoorne",
-        nl: "Ik heb een beveiligde webserver met een honeypot opgezet, die door studenten getest kon worden, en heb ook andere honeypots getest. Ik ontdekte een opgeslagen XSS-kwetsbaarheid op een website, waardoor de cookie van de beheerder werd gestolen zodra deze de beheerderspagina opende. Ik heb een rapport opgesteld met een proof of concept en aanbevelingen voor een oplossing. Project in samenwerking met Maddox Heyndrickx en Gianna Vandoorne",
+        en: "Built a secure webserver with a honeypot to be pentested by students + pentesting other honeypots.",
+        nl: "Ik heb een beveiligde webserver met een honeypot opgezet, die door studenten getest kon worden, en heb ook andere honeypots getest.",
       },
+      details: [
+        {
+          en: "I Found a stored XSS in one website stealing the administrator's cookie when they opened the admin page. Wrote a report with proof of concept and fix advice.",
+          nl: " Ik ontdekte een opgeslagen XSS-kwetsbaarheid op een website, waardoor de cookie van de beheerder werd gestolen zodra deze de beheerderspagina opende. Ik heb een rapport opgesteld met een proof of concept en aanbevelingen voor een oplossing."
+        },
+        {
+          en: "Project together with Maddox Heyndrickx and Gianna Vandoorne.",
+          nl: "Project in samenwerking met Maddox Heyndrickx en Gianna Vandoorne"
+        },
+      ],
       tags: ["Burp Suite", "OWASP ZAP", "Python", "Nginx"],
       links: { code: "https://github.com/jeroenvileyn/honeypot" },
     },
