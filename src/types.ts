@@ -23,6 +23,8 @@ export interface Project {
   title: Text;
   category: Text;
   description: Text;
+  /** Optional longer text, hidden until the visitor clicks "Show more". One item per paragraph. */
+  details?: Text[];
   tags: string[];
   links: { code?: string; writeup?: string; demo?: string };
 }
