@@ -6,7 +6,7 @@ tags: Events
 ---
 ## Van Mythos tot open modellen
 
-Op 27 oktober ging ik naar een lezing van Niels Rogge aan Howest in Brugge. Niels is Machine Learning Engineer bij Hugging Face en gaf een overzicht van de nieuwste ontwikkelingen bij AI-modellen. Daarbij besteedde hij extra aandacht aan Claude Mythos van Anthropic. Ik ging erheen uit nieuwsgierigheid en kwam buiten met een duidelijker beeld van wat AI vandaag betekent voor cybersecurity.
+Op 27 oktober ging ik naar een Tech & Meet van Niels Rogge aan Howest in Brugge. Niels is Machine Learning Engineer bij Hugging Face en gaf een overzicht van de nieuwste ontwikkelingen bij AI-modellen. Daarbij besteedde hij extra aandacht aan Claude Mythos van Anthropic. Ik ging erheen uit nieuwsgierigheid en kwam buiten met een duidelijker beeld van wat AI vandaag betekent voor cybersecurity.
 
 In onze opleiding bekijken we AI vaak als hulpmiddel: een tool die logs analyseert, phishing herkent of alerts sorteert... Deze lezing liet de andere kant zien. Hetzelfde model dat een kwetsbaarheid vindt om ze te patchen, kan ze ook vinden om ze uit te buiten. Het verschil zit niet in de technologie, maar in wie ze gebruikt en waarvoor.
 
