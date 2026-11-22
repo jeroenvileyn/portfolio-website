@@ -1,6 +1,6 @@
 ---
 title: Hello world: why I'm starting this blog
-date: 2026-11-18
+date: 2026-10-17
 summary: A short introduction about what I'll be writing about here.
 tags: Personal
 ---
