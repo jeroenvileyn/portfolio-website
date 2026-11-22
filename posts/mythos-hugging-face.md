@@ -1,7 +1,7 @@
 ---
 title: From Mythos to open models
 date: 2026-11-17
-summary: Tech & Meet over het masker van AI van Wim Casteels
+summary: Tech & Meet over security in AI (mythos) en open modellen
 tags: Events
 ---
 ## Van Mythos tot open modellen
