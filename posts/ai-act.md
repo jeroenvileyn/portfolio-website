@@ -1,7 +1,7 @@
 ---
 title: AI Act
 date: 2026-10-13
-summary: Europese AI Act
+summary: Tech & Meet over Europese AI Act
 tags: Events
 ---
 Gisteren ging ik naar de Tech&Meet in Howest, waar [Olivier Sustronck](https://www.linkedin.com/in/olivier-sustronck-1955b4119/) een lezing gaf over onder andere de Europese AI Act. Ik verwachtte vooral een opfrissing van wat we in het eerste jaar gezien hadden tijdens de lessen Data Privacy & IT Law, maar ik kwam buiten met meer vragen dan ik binnenging, en dat bedoel ik positief.
