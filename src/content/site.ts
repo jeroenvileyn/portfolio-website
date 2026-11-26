@@ -48,7 +48,7 @@ export const site: SiteContent = {
     { group: { en: "Languages", nl: "Talen" }, items: ["Python", "Bash", "PowerShell", "Javascript"] },
   ],
   certifications: [
-    { name: "None (yet)", issuer: "", year: "", status: "planned" },
+    { name: "Cyberops Associate Badge", issuer: "Cisco", year: "2026", status: "earned", url: "https://www.credly.com/badges/a333db1d-a082-403d-9e93-d93e6220e056/linked_in_profile" },
   ],
 
   /* ---------- Projects ---------- */
